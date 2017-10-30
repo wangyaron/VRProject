@@ -5,7 +5,7 @@ public class ModelManager : MonoBehaviour
 {
     private int tag = 0;
     
-    private string model_name = "hello";
+    private string model_name = "helloworld";
 
 	void Start () {
         Debug.Log("git测试");
