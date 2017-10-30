@@ -20,4 +20,8 @@ public class ModelManager : MonoBehaviour
     {
         Debug.Log("小郭提交的一个方法");
     }
+    
+    public void SetVisible(bool visible){
+    	gameObject.SetActive(visible);
+    }
 }
