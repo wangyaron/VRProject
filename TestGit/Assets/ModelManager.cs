@@ -4,6 +4,8 @@ using System.Collections;
 public class ModelManager : MonoBehaviour
 {
     private int tag = 0;
+    
+    private string model_name = "hello";
 
 	void Start () {
         Debug.Log("git测试");
