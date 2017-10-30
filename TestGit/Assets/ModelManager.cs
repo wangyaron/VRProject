@@ -3,7 +3,8 @@ using System.Collections;
 
 public class ModelManager : MonoBehaviour
 {
-    private int tag = 3;
+    private int tag = 8;
+    private bool isShow = false;
     
     private string model_name = "hello";
 
