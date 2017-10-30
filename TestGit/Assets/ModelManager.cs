@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ModelManager : MonoBehaviour
 {
-    private int tag = 6;
+    private int tag = 5;
     
     private string model_name = "hello";
 
