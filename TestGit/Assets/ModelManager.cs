@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ModelManager : MonoBehaviour {
+public class ModelManager : MonoBehaviour
+{
+    private int tag = 0;
 
 	void Start () {
         Debug.Log("git测试");
