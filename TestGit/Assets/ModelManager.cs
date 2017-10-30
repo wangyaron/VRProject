@@ -9,6 +9,11 @@ public class ModelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(Vector3.up, Time.deltaTime * 30);
+        transform.Rotate(Vector3.up, Time.deltaTime * 280);
 	}
+
+    private void PrintMsg()
+    {
+        Debug.Log("小郭提交的一个方法");
+    }
 }
